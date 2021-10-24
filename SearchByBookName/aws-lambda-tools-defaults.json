@@ -7,19 +7,19 @@
         "All the command line options for the Lambda command can be specified in this file."
     ],
     "profile"     : "shuy",
-    "region"      : "us-east-2",
+    "region"      : "us-west-2",
     "configuration" : "Release",
     "framework"     : "netcoreapp3.1",
     "function-runtime" : "dotnetcore3.1",
     "function-memory-size" : 256,
     "function-timeout"     : 30,
-    "function-handler"     : "concordance-backend::concordance_backend.Function::FunctionHandler",
-    "function-name"        : "concordance",
+    "function-handler"     : "SearchWord::SearchWord.Function::SearchByWord",
+    "function-name"        : "SearchByBookName",
+    "function-description" : "",
     "package-type"         : "Zip",
     "function-role"        : "arn:aws:iam::591032114109:role/lambda_exec_concordance",
     "function-architecture" : "x86_64",
     "tracing-mode"          : "PassThrough",
     "environment-variables" : "",
-    "image-tag"             : "",
-    "function-description"  : ""
+    "image-tag"             : ""
 }
